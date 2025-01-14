@@ -41,9 +41,6 @@ a.menu {
     font-family: 'establishRetrosansOTF';
 
 }
-.nav{
-
-}
 nav.textmenu {
     display: flex;
     justify-content: center; 
@@ -92,13 +89,8 @@ nav.textmenu a:hover {
 .bible {
     width: 100vw; 
     height: 100vh; 
-    background-image: url('img/Background.png'); 
-    background-size: cover; 
-    background-position: center;
-    background-attachment: fixed; 
-    overflow: hidden; 
+    position: absolute;
 }
-
 
 #Backgroundimg {
     width: 100%; 
@@ -110,9 +102,4 @@ nav.textmenu a:hover {
 }
 
 .title{
-    position: absolute;
-    font-family: 'establishRetrosansOTF';
-    font-size: 20px;
-    float: left;
-    margin-left: 20px;
 }
