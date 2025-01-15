@@ -101,5 +101,47 @@ nav.textmenu a:hover {
     left: 0;
 }
 
-.title{
+.notice{
+    margin-top: 950px;
+    float: left;
+    margin-left: 200px;
+    font-family: 'establishRetrosansOTF';
+
 }
+
+#min_title{
+    font-size: 10px;
+    color: #666666;
+}
+
+
+.instagram-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    background-size: 400% 400%;
+    animation: gradientAnimation 3s ease infinite;
+}
+
+.instagram-btn:hover {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    background-size: 400% 400%;
+    animation: gradientAnimation 3s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
